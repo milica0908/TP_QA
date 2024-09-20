@@ -118,7 +118,7 @@ public class GridPage extends BasePageClass {
     }
 
     public String getExcelData(String sheetName, int rowNumber, int cellNumber) throws IOException {
-        FileInputStream fileInputStream = new FileInputStream("C:\\Users\\stojk\\Downloads\\Employees.xlsx"); //Need to input your download path, where your files will be downloaded!
+        FileInputStream fileInputStream = new FileInputStream("C:\\Users\\stojk\\Downloads\\Employees.xlsx"); //Change according to the README file
         Workbook workbook = new XSSFWorkbook(fileInputStream);
         Sheet sheet = workbook.getSheet(sheetName);
         Row row = sheet.getRow(rowNumber);

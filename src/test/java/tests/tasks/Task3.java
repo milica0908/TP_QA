@@ -32,7 +32,7 @@ public class Task3 extends BaseTestClass {
         Assert.assertTrue(gridPage.verifyExportedTable(), "Exported Employee table is not correct");
     }
 
-    //@AfterMethod(alwaysRun = true)
+    @AfterMethod(alwaysRun = true)
     public void tearDownTest(ITestResult testResult) {
         log.debug("[END TEST]");
         tearDown(driver, testResult);
