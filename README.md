@@ -3,7 +3,7 @@
 ## Setup
 
 1. Ensure you have Java and Maven installed on your local machine.
-2. Put your download path instead of mine in Task3.class for "fileInputStream" so it works with excel where you download it.
+2. Change the download path in GridPage.java, line 121, so that it points to the location of the downloaded Excel table on your PC.
 
 ## Install Dependencies
 
